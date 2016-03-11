@@ -1,0 +1,18 @@
+Dataarket indeholder oplysninger fra Medicinpriser, der udgives hver 14. dag og indeholder oplysninger om hvilke lægemiddelpriser der vil være gældende de næste to uger. Priser mv. optræder kun på datoer hvor pakningen er på markedet.	
+	
+Forklaring til variable:	
+ATC-kode	"Lægemiddelklassifikation som fastsættes af WHO. En ATC-kode for et lægemiddel til mennesker består af tilsammen 7 bogstaver og tal. F.eks. angiver ATC-koden S01ED01, at det er et lægemiddel, der virker på sanseorganerne (S), i dette tilfælde øjnene (01). Det virker mod sygdommen grøn stær (E), det virker som en ß-blokker (D), og det virksomme indholdsstof i lægemidlet er timolol (01). Øjendråbepræparaterne Aquanil, Oftamolol, Optimol og Timacar har derfor alle ATC-koden S01ED01, da det er øjendråber, der indeholder timolol, som bruges mod grøn stær.
+
+Se mere på: http://www.esundhed.dk/dokumentation/Registre/Sider/Variabel.aspx?rp:A_Register=14&rp:B_Tabel=63&rp:C_Variabel=323& "
+Navn	Lægemidlets handelsnavn. Navnet fra den seneste takst anvendes. (Nogle lægemidler har tidligere været markedsført under andre navne).
+Varenummer	Lægemidlets varenummer som også er trykt på pakningen. 
+Pakning	Pakningsstørrelse, f.eks. 100 stk.
+Styrke	Lægemidlets styrke, f.eks 5 mg eller 0,01%. Findes ikke for alle lægemidler.
+Form	Lægemiddelform, f.eks. tabletter, kapsler, mikstur eller dråber.
+Firma	Distributør af lægemidlet. 
+	
+Priser mv.:	
+AIP	Apotekets indkøbspris. AIP findes ikke for håndkøbslægemidler i frihandel.
+AUP	Apotekets udsalgspris (også kaldet registerpris) inkl.avance og moms, men uden recepturgebyr (pr. 01apr2008 10,00 kr pr. pakning).  AUP findes ikke for håndkøbslægemidler i frihandel.
+DDD	Definerede døgndoser fastsat af WHO. En anslået gennemsnitsdosis for en voksen pr. døgn. Findes ikke for alle lægemidler. 
+DDD-AUP	Prisen pr. dosis, AUP / DDD (se ovenfor). 
